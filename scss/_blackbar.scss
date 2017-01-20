@@ -1,0 +1,54 @@
+.blackbar{
+	width: 100%;
+  padding-top: 70px;
+  background-color: #040404;
+  color: white;
+    @media screen and (min-width: 768px){
+      width: 80%;
+      padding-top: 0px;
+      margin-left: 20%;
+      margin-bottom: 70px;
+    }
+}
+.blackbar__text-column{
+  width: 86%;
+  text-align: left;
+  text-indent: 5%;
+  letter-spacing: 1px;
+    @media screen and (min-width: 768px){
+      width: 60%;
+    }
+}
+
+.blackbar__options-column{
+  width: 14%;
+  @media screen and (min-width: 768px){
+    width: 40%;
+  }
+}
+
+.blackbar__small-menu{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+    @media screen and (min-width: 768px){
+      display: none;
+    }
+}
+
+
+.blackbar__full-menu{
+  display: none;
+  @media screen and (min-width: 768px){
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+    margin-right: 5%;
+      .blackbar__tab-link{
+        padding-left: 20px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+}

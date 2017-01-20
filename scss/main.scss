@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hind" , "Futura" , "sans-seriff";
+}
+img{
+  width: 100%;
+  display: block;
+}
+
+@import "./mixins";
+
+@import "./sidebar";
+@import "./nav";
+@import "./blackbar";
+@import "./pictures";
+
+#app-container{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-container{
+  font-size: 0;
+  > *{
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+  }
+
+}
+
+.img-one{
+  @include background-img("../images/momofuko-01-noodlebarbowl_mini.jpg");
+}
+.img-two{
+  @include background-img("../images/momofuko-02-ssam-bar.jpg");
+}
+.img-three{
+  @include background-img("../images/momofuko-03-ko.png");
+}
+.img-four{
+  @include background-img("../images/momofuko-04-ma-peche.jpg");
+}
+.img-five{
+  @include background-img("../images/momofuko-05-nishi.jpg");
+}
+.img-six{
+  @include background-img("../images/momofuko-06-CCDC.jpg");
+}
+.img-seven{
+  @include background-img("../images/momofuko-07-daisho.png");
+}
+.img-eight{
+ @include background-img("../images/momofuko-08-shoto.png");
+}

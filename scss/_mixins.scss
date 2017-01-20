@@ -1,0 +1,7 @@
+@mixin background-img($imglink){
+  background: url($imglink)center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto;
+
+}

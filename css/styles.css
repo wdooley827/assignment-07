@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Hind" , "Futura" , "sans-seriff"; }
+
+img {
+  width: 100%;
+  display: block; }
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+    font-size: medium;
+    margin-left: .4%; }
+
+  .sidebar-column {
+    width: 100%;
+    height: 20%;
+    border: 1px solid grey;
+    text-align: center; }
+
+  .sidebar-column img {
+    height: 40%;
+    margin-top: 10%; }
+
+  .sidebar__link i {
+    font-size: 36px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color: black; } }
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding-bottom: 40px 0;
+  background-color: #F8F8F8;
+  height: 70px; }
+
+.nav__logo-column {
+  width: 25%;
+  height: 70px;
+  border-right: 1px solid grey; }
+
+.nav__logo-img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%) translateX(-10%); }
+
+.nav__links-column {
+  width: 25%;
+  height: 70px;
+  border-right: 1px solid grey;
+  text-align: center; }
+
+.nav__tab-link {
+  font-size: 14px;
+  line-height: 70px;
+  text-decoration: none;
+  color: black; }
+
+.nav__ham-column {
+  width: 25%;
+  text-align: center;
+  line-height: 80px; }
+
+.nav__ham-column i {
+  font-size: 36px; }
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: none; } }
+.blackbar {
+  width: 100%;
+  padding-top: 70px;
+  background-color: #040404;
+  color: white; }
+  @media screen and (min-width: 768px) {
+    .blackbar {
+      width: 80%;
+      padding-top: 0px;
+      margin-left: 20%;
+      margin-bottom: 70px; } }
+
+.blackbar__text-column {
+  width: 86%;
+  text-align: left;
+  text-indent: 5%;
+  letter-spacing: 1px; }
+  @media screen and (min-width: 768px) {
+    .blackbar__text-column {
+      width: 60%; } }
+
+.blackbar__options-column {
+  width: 14%; }
+  @media screen and (min-width: 768px) {
+    .blackbar__options-column {
+      width: 40%; } }
+
+.blackbar__small-menu {
+  display: inline-block;
+  font-size: 30px;
+  text-align: center; }
+  @media screen and (min-width: 768px) {
+    .blackbar__small-menu {
+      display: none; } }
+
+.blackbar__full-menu {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .blackbar__full-menu {
+      display: inline-block;
+      line-height: 60px;
+      text-align: center;
+      float: right;
+      margin-right: 5%; }
+      .blackbar__full-menu .blackbar__tab-link {
+        padding-left: 20px;
+        color: white;
+        text-decoration: none; } }
+
+@media screen and (min-width: 768px) {
+  .pictures {
+    margin-left: 21%; } }
+.pictures .pictures__img-column {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 5px;
+  color: white;
+  letter-spacing: 2px; }
+  .pictures .pictures__img-column img {
+    width: 20%;
+    padding-top: 0px; }
+  .pictures .pictures__img-column .rest {
+    text-align: center;
+    padding-top: 20px; }
+  .pictures .pictures__img-column .rest-name {
+    padding-top: 80px;
+    font-size: 24px; }
+  .pictures .pictures__img-column .none {
+    padding-top: 150px; }
+  @media screen and (min-width: 768px) {
+    .pictures .pictures__img-column {
+      width: 49%;
+      margin-left: 2px; } }
+
+#app-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.column-container {
+  font-size: 0; }
+  .column-container > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium; }
+
+.img-one {
+  background: url("../images/momofuko-01-noodlebarbowl_mini.jpg") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-two {
+  background: url("../images/momofuko-02-ssam-bar.jpg") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-three {
+  background: url("../images/momofuko-03-ko.png") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-four {
+  background: url("../images/momofuko-04-ma-peche.jpg") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-five {
+  background: url("../images/momofuko-05-nishi.jpg") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-six {
+  background: url("../images/momofuko-06-CCDC.jpg") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-seven {
+  background: url("../images/momofuko-07-daisho.png") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+.img-eight {
+  background: url("../images/momofuko-08-shoto.png") center, center, no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: auto; }
+
+/*# sourceMappingURL=styles.css.map */
